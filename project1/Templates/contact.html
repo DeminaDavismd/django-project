@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+ {% block title%}
+  contact
+ {% endblock %}
+ {% load static %}
+
+ {% block content%}
+ <style>
+    body {
+      background-image:{% static '/images/call.webp' %} ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+   <Body background={% static '/images/call.webp' %}>
+   
+ <h1  class="text-center" style="color:Tomato"><b>CONTACT</b> </h1>
+   </div>
+ <hr>
+<body>
+    <div class="mx-auto w-50 bg-light p-4 text-center text-success">
+<h3><b><i> <u>LOCATION</u></i></b></h3><br>
+<b><i>St. James’ Hospital Thrissur,Kerala – 680307</i></b>
+    </div>
+<br>
+<br>
+
+<div class="mx-auto w-50 bg-danger p-3 text-center text-light">
+    <h3><b><i> <u>CALL US</u></i></b></h3><br>
+    <b><i> 0485-2710271, 2710571,2708956</i></b>
+        </div>
+<BR><BR>
+        <div class="mx-auto w-50 bg-light p-3 text-center text-success">
+        <h3><b><i> <u>EMAIL US</u></i></b></h3><br>
+        <b><i>jameshsthr@gmail.com.</i></b>
+            </div>    
+
+
+</body>
+</html>       
+ {% endblock %} 
